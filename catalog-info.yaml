@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-ansible-job-template-4
+  description: This template creates and configures am Apache VM on VSphere 
+  annotations:
+    backstage.io/kubernetes-id: test-ansible-job-template-4
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: api
+  lifecycle: production
+  owner: daniele
